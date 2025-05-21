@@ -4,8 +4,8 @@ import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 const name = 'BIRDO THE BIRD';
 const desc =
-	'Birdo The Bird is a meme-inspired cryptocurrency project, featuring an American Bully dog as its mascot. Bassed on the Binance Smart Chain (BSC).  It combines humor with utility, aiming to engage  the crypto community through various features and initiatives. Build on BSC. Born for Bullish.';
-const img = 'https://i.imgur.com/7SNGCvX.png';
+		"The first bird on the BSC (BEP-20), inspired by Pepe The Frog concept. Flight mode: ACTIVATED";
+const img = 'https://i.imgur.com/UU3zA2S.png';
 const themeColor = '#dac78c';
 
 // >> Script

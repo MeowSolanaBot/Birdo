@@ -22,10 +22,7 @@ export default function Hero(props) {
 						THIS IS BIRDO <span>THE BIRD</span>
 					</Typography>
 					<Typography className={styles.desc} data-aos="fade-right">
-						Birdo The Bird is a BEP-20 meme token inspired by PEPE,
-						powered by BNB Chain&apos;s fast and reliable
-						infrastructure, and designed for viral growth and
-						community-driven impact.<br></br>
+						The first bird on the BSC (BEP-20), inspired by Pepe The Frog concept. Flight mode: ACTIVATED<br></br>
 						CA: 0x0000000000000000000000000000000000000000
 					</Typography>
 					<div
