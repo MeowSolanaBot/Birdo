@@ -22,7 +22,9 @@ export default function Hero(props) {
 						THIS IS BIRDO <span>THE BIRD</span>
 					</Typography>
 					<Typography className={styles.desc} data-aos="fade-right">
-						The first bird on the BSC (BEP-20), inspired by Pepe The Frog concept. Flight mode: ACTIVATED<br></br>
+						The first bird on the BSC (BEP-20), inspired by Pepe The
+						Frog concept. Flight mode: <span>ACTIVATED</span>
+						<br></br>
 						CA: 0x0000000000000000000000000000000000000000
 					</Typography>
 					<div

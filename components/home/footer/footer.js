@@ -25,7 +25,8 @@ export default function Footer(props) {
 						/>
 
 						<Typography>
-							$BIRD Wings out. Moonbound. Flight mode: ACTIVATED
+							$BIRD Wings out. Moonbound. Flight mode:{' '}
+							<span>ACTIVATED</span>
 						</Typography>
 					</div>
 					<div className={styles.topRight}>
@@ -104,7 +105,10 @@ export default function Footer(props) {
 				</div>
 				<div className={styles.bottom}>
 					<Typography>
-						© 2025 BIRDO THE BIRD — All rights reserved. <br></br> <br></br> *Investing in meme tokens involves a high level of risk and may not be suitable for all investors. Always do your own research and invest responsibly.
+						© 2025 BIRDO THE BIRD — All rights reserved. <br></br>{' '}
+						<br></br> *Investing in meme tokens involves a high
+						level of risk and may not be suitable for all investors.
+						Always do your own research and invest responsibly.
 					</Typography>
 				</div>
 			</div>

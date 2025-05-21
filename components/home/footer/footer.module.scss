@@ -54,6 +54,11 @@
 	font-weight: 400;
 	line-height: 125%;
 	letter-spacing: 0.24px;
+
+	span {
+		color: #00e800;
+		text-shadow: 0px 1px 1px $color-darkbrown;
+	}
 }
 
 .inside .top .topRight {
@@ -149,7 +154,7 @@
 }
 
 // RWD
-@media (max-width: 1150px) {
+@media (max-width: 1260px) {
 	.inside .top {
 		width: 100%;
 		flex-wrap: wrap;
@@ -181,6 +186,19 @@
 	.inside .center .centerRight {
 		width: 100%;
 		justify-content: center;
+	}
+}
+
+@media (max-width: 700px) {
+	.inside .top .topLeft {
+		flex-direction: column;
+		gap: 8px;
+		justify-content: center;
+	}
+
+	.inside .top .topLeft p {
+		text-align: center;
+		width: 70%;
 	}
 }
 
