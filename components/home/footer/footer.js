@@ -25,7 +25,7 @@ export default function Footer(props) {
 						/>
 
 						<Typography>
-							$BIRD Wings out. Moonbound.
+							$BIRD Wings out. Moonbound. Flight mode: ACTIVATED
 						</Typography>
 					</div>
 					<div className={styles.topRight}>
