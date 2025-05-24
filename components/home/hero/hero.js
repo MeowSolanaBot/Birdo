@@ -4,9 +4,15 @@ import design from '@/styles/design_system.module.scss';
 import { Button, Typography } from '@mui/material';
 import Image from 'next/image';
 
+import dynamic from 'next/dynamic';
+const Lottie = dynamic(() => import('lottie-react'), {
+	ssr: false,
+});
+
 import twitterX from '@/public/images/twitterX.svg';
 import telegram from '@/public/images/telegram.svg';
 import heroImg from '@/public/images/heroImg.png';
+import heroImgAnim from '@/public/images/heroImg.json';
 
 // >> Script
 export default function Hero(props) {
@@ -23,8 +29,7 @@ export default function Hero(props) {
 					</Typography>
 					<Typography className={styles.desc} data-aos="fade-right">
 						The first bird on the BSC (BEP-20), inspired by Pepe The
-						Frog concept. Flight mode: <span>ACTIVATED</span>
-						<br></br>
+						Frog concept. Flight mode: ACTIVATED<br></br>
 						CA: 0x0000000000000000000000000000000000000000
 					</Typography>
 					<div
@@ -76,13 +81,7 @@ export default function Hero(props) {
 					</div>
 				</div>
 				<div className={styles.media} data-aos="fade-left">
-					<Image
-						src={heroImg}
-						alt=""
-						quality={99}
-						priority={true}
-						className="image"
-					/>
+					<Lottie animationData={heroImgAnim} autoplay />
 				</div>
 			</div>
 		</div>

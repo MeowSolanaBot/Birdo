@@ -63,11 +63,6 @@
 
 	white-space: pre-line;
 	word-break: break-word;
-
-	span {
-		color: #00e800;
-		text-shadow: 0px 1px 1px $color-darkbrown;
-	}
 }
 
 .inside .content .contentButtons {
@@ -106,6 +101,7 @@
 
 	img {
 		transform: rotate(-171deg);
+		opacity: 0;
 	}
 }
 
