@@ -165,7 +165,7 @@ export default function Tokenomics(props) {
 							CONTRACT ADDRESS:
 						</Typography>
 						<Typography className={styles.whiteTitle}>
-							0x0000000000000000000000000000000000000000
+							0x4258eae51CDFFa6099f1B991a129Fc26A4462Df5
 						</Typography>
 					</div>
 				</div>
