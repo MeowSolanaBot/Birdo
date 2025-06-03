@@ -2,10 +2,10 @@
 import React from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
-const name = 'BIRDO THE BIRD';
+const name = 'FROGE';
 const desc =
-		"The first bird on the BSC (BEP-20), inspired by Pepe The Frog concept. Flight mode: ACTIVATED";
-const img = 'https://i.imgur.com/UU3zA2S.png';
+		"Discord's cult emoji turns memecoin on BNB. Same path as Pepe, but greener. Much greener.";
+const img = 'https://i.imgur.com/6WqG8Ul.png';
 const themeColor = '#dac78c';
 
 // >> Script

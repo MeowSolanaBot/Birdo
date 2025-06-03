@@ -25,11 +25,10 @@ export default function Hero(props) {
 						className={styles.title}
 						data-aos="fade-right"
 					>
-						THIS IS BIRDO <span>THE BIRD</span>
+						FROGE <span>THE FROG</span>
 					</Typography>
 					<Typography className={styles.desc} data-aos="fade-right">
-						The first bird on the BSC (BEP-20), inspired by Pepe The
-						Frog concept. Flight mode: ACTIVATED<br></br>
+						Discord's cult emoji turns memecoin on BNB. Same path as Pepe, but greener. Much greener.<br></br>
 						CA: 0x0000000000000000000000000000000000000000
 					</Typography>
 					<div
@@ -42,11 +41,11 @@ export default function Hero(props) {
 							target="_blank"
 							disableRipple
 						>
-							<Typography>BUY $BIRD</Typography>
+							<Typography>BUY $FROGE</Typography>
 						</Button>
 						<Button
 							className={`${design.button_social} ${styles.socialBtn}`}
-							href="https://t.me/BirdoBNB"
+							href="https://t.me/FrogeBNB"
 							target="_blank"
 							disableRipple
 						>
@@ -63,7 +62,7 @@ export default function Hero(props) {
 						</Button>
 						<Button
 							className={`${design.button_social} ${styles.socialBtn}`}
-							href="https://x.com/BirdoBNB"
+							href="https://x.com/FrogeBNB"
 							target="_blank"
 							disableRipple
 						>

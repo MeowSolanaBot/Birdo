@@ -4,7 +4,7 @@ import Head from 'next/head';
 // >> Components
 import Home from '@/components/home/home';
 
-const name = 'BIRDO THE BIRD';
+const name = 'FROGE';
 
 // >> Script
 export default function Page(props) {

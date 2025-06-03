@@ -25,7 +25,7 @@ export default function Footer(props) {
 						/>
 
 						<Typography>
-							$BIRD Wings out. Moonbound. Flight mode: ACTIVATED
+							$FROGE Discord's cult emoji turns memecoin on BNB.
 						</Typography>
 					</div>
 					<div className={styles.topRight}>
@@ -54,21 +54,21 @@ export default function Footer(props) {
 							target="_blank"
 							disableRipple
 						>
-							<Typography>BUY $BIRD</Typography>
+							<Typography>BUY $FROGE</Typography>
 						</Button>
 						<Button
 							className={`${design.button_white} ${styles.btn}`}
-							href=""
+							href="https://gleam.io/DC1de/20x-froge-whitelist-spot-giveaway"
 							target="_blank"
 							disableRipple
 						>
-							<Typography>Chart</Typography>
+							<Typography>WHITELIST</Typography>
 						</Button>
 					</div>
 					<div className={styles.centerRight}>
 						<Button
 							className={`${design.button_social} ${styles.socialBtn}`}
-							href="https://t.me/BirdoBNB"
+							href="https://t.me/FrogeBNB"
 							target="_blank"
 							disableRipple
 						>
@@ -85,7 +85,7 @@ export default function Footer(props) {
 						</Button>
 						<Button
 							className={`${design.button_social} ${styles.socialBtn}`}
-							href="https://x.com/BirdoBNB"
+							href="https://x.com/FrogeBNB"
 							target="_blank"
 							disableRipple
 						>
@@ -104,7 +104,7 @@ export default function Footer(props) {
 				</div>
 				<div className={styles.bottom}>
 					<Typography>
-						© 2025 BIRDO THE BIRD — All rights reserved. <br></br>{' '}
+						© 2025 FROGE — All rights reserved. <br></br>{' '}
 						<br></br> *Investing in meme tokens involves a high
 						level of risk and may not be suitable for all investors.
 						Always do your own research and invest responsibly.

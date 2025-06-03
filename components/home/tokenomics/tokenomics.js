@@ -138,7 +138,7 @@ export default function Tokenomics(props) {
 							Total Supply
 						</Typography>
 						<Typography className={styles.orangeDesc}>
-							420,690,000,000 <span>$BIRD</span>
+							420,690,000,000 <span>$FROGE</span>
 						</Typography>
 					</div>
 					<div

@@ -38,7 +38,7 @@ export default function Roadmap(props) {
 						</div>
 						<div className={styles.onePhase} data-aos="fade-right">
 							<div className={styles.phaseTitle}>
-								<Typography>PHASE: EGG DROP</Typography>
+								<Typography>PHASE: Tadpole Awakening</Typography>
 							</div>
 							<div className={styles.points}>
 								<Typography className={styles.onePoint}>
@@ -60,11 +60,11 @@ export default function Roadmap(props) {
 						</div>
 						<div className={styles.onePhase} data-aos="fade-right">
 							<div className={styles.phaseTitle}>
-								<Typography>PHASE: FIRST FLIGHT</Typography>
+								<Typography>PHASE: First Hop</Typography>
 							</div>
 							<div className={styles.points}>
 								<Typography className={styles.onePoint}>
-									• PancakeSwap $BIRD Launch
+									• PancakeSwap $FROGE Launch
 								</Typography>
 								<Typography className={styles.onePoint}>
 									• CMC/GC Fast Track Apply
@@ -111,7 +111,7 @@ export default function Roadmap(props) {
 						</div>
 						<div className={styles.onePhase} data-aos="fade-left">
 							<div className={styles.phaseTitle}>
-								<Typography>PHASE: FEATHERSTORM</Typography>
+								<Typography>PHASE: Swamp Surge</Typography>
 							</div>
 							<div className={styles.points}>
 								<Typography className={styles.onePoint}>
@@ -127,17 +127,17 @@ export default function Roadmap(props) {
 									• KOLs Collaboration
 								</Typography>
 								<Typography className={styles.onePoint}>
-									• Birdo Merch Drop
+									• Froge Merch Drop
 								</Typography>
 							</div>
 						</div>
 						<div className={styles.onePhase} data-aos="fade-left">
 							<div className={styles.phaseTitle}>
-								<Typography>PHASE: FULL WINGSPAN</Typography>
+								<Typography>PHASE: Full Frogged Out</Typography>
 							</div>
 							<div className={styles.points}>
 								<Typography className={styles.onePoint}>
-									• $BIRD CEX Listing
+									• $FROGE CEX Listing
 								</Typography>
 								<Typography className={styles.onePoint}>
 									• CertiK Audit Process
@@ -146,10 +146,10 @@ export default function Roadmap(props) {
 									• Cross-Chain Expand
 								</Typography>
 								<Typography className={styles.onePoint}>
-									• BIRDO NFT Marketplace
+									• Froge NFT Marketplace
 								</Typography>
 								<Typography className={styles.onePoint}>
-									• BIRDO Launchpad
+									• Froge Launchpad
 								</Typography>
 							</div>
 						</div>

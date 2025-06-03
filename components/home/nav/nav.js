@@ -47,15 +47,15 @@ export default function Nav(props) {
 						target="_blank"
 						disableRipple
 					>
-						<Typography>Buy $BIRD</Typography>
+						<Typography>Buy $FROGE</Typography>
 					</Button>
 					<Button
 						className={`${design.button_white} ${styles.btn}`}
-						href=""
+						href="https://gleam.io/DC1de/20x-froge-whitelist-spot-giveaway"
 						target="_blank"
 						disableRipple
 					>
-						<Typography>Chart</Typography>
+						<Typography>WHITELIST</Typography>
 					</Button>
 				</div>
 			</div>

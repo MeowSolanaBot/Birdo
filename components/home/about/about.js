@@ -18,15 +18,10 @@ export default function About(props) {
 						data-aos="fade-left"
 					>
 						ABOUT{'  '}
-						<span>BIRDO</span>
+						<span>FROGE</span>
 					</Typography>
 					<Typography className={styles.desc} data-aos="fade-left">
-						Birdo The Bird is a meme-born bird with a massive ego
-						and even bigger dreams. A spiritual cousin of Rato the
-						Rat and a rebellious sibling of Pepe The Frog, Birdo
-						flies high usually without a plan. He is a symbol of
-						freedom, absurdity, and going against the wind. Who says
-						a bird can&apos;t become a meme legend?
+						$FROGE is not just a meme; he's a swamp-born signal of chaos, freedom, and digital rebellion. Froge hops with purpose, fueled by irony, driven by community. Same path as Pepe. Just wilder, greener, and way less serious.
 					</Typography>
 					<div className={styles.contentButtons} data-aos="fade-left">
 						<Button
@@ -35,7 +30,7 @@ export default function About(props) {
 							target="_blank"
 							disableRipple
 						>
-							<Typography>BUY $BIRD</Typography>
+							<Typography>BUY $FROGE</Typography>
 						</Button>
 					</div>
 				</div>
