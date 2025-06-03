@@ -4,7 +4,7 @@ import design from '@/styles/design_system.module.scss';
 import { Typography } from '@mui/material';
 import Image from 'next/image';
 
-import roadmapIcon from '@/public/images/roadmapIcon.png';
+import roadmapIcon from '@/public/logo.png';
 import roadmapLine from '@/public/images/roadmapLine.png';
 
 const faces = 10;

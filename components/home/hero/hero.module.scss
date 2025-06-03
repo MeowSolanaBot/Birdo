@@ -41,6 +41,7 @@
 	line-height: 120%;
 
 	word-spacing: 4px;
+	letter-spacing: 1px;
 
 	text-shadow: rgb(24, 80, 50) 2px 0px 0px,
 		rgb(24, 80, 50) 1.75517px 0.958851px 0px,
@@ -110,13 +111,12 @@
 	position: relative;
 
 	width: 90%;
-	max-width: 575px;
+	max-width: 611px;
 	height: auto;
 
-	img {
-		transform: rotate(-171deg);
-		//opacity: 0;
-	}
+	// img {
+	// 	//opacity: 0;
+	// }
 }
 
 // RWD

@@ -108,6 +108,12 @@
 	width: 100%;
 	max-width: 360px;
 	height: auto;
+
+	overflow: hidden;
+
+	img {
+		top: 50px;
+	}
 }
 
 .inside .media::before {
@@ -125,7 +131,7 @@
 	background: linear-gradient(
 		to bottom,
 		rgba($color-background, 0) 0%,
-		$color-background 90%
+		$color-background 80%
 	);
 
 	z-index: 2;
