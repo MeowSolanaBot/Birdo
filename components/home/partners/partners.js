@@ -48,7 +48,7 @@ export default function Partners(props) {
 							<Button
 								className={`${
 									id % 2 === 0
-										? design.button_brown
+										? design.button_green
 										: design.button_white
 								} ${styles.onePartner}`}
 								href={element.link}

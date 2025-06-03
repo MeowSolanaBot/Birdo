@@ -49,7 +49,7 @@ export default function Footer(props) {
 				<div className={styles.center}>
 					<div className={styles.centerLeft}>
 						<Button
-							className={`${design.button_brown} ${styles.btn}`}
+							className={`${design.button_green} ${styles.btn}`}
 							href="https://pinksale.finance/"
 							target="_blank"
 							disableRipple
@@ -104,7 +104,10 @@ export default function Footer(props) {
 				</div>
 				<div className={styles.bottom}>
 					<Typography>
-						© 2025 BIRDO THE BIRD — All rights reserved. <br></br> <br></br> *Investing in meme tokens involves a high level of risk and may not be suitable for all investors. Always do your own research and invest responsibly.
+						© 2025 BIRDO THE BIRD — All rights reserved. <br></br>{' '}
+						<br></br> *Investing in meme tokens involves a high
+						level of risk and may not be suitable for all investors.
+						Always do your own research and invest responsibly.
 					</Typography>
 				</div>
 			</div>

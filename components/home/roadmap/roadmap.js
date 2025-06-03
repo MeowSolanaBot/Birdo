@@ -4,7 +4,7 @@ import design from '@/styles/design_system.module.scss';
 import { Typography } from '@mui/material';
 import Image from 'next/image';
 
-import logo from '@/public/logo.png';
+import roadmapIcon from '@/public/images/roadmapIcon.png';
 import roadmapLine from '@/public/images/roadmapLine.png';
 
 const faces = 10;
@@ -88,7 +88,11 @@ export default function Roadmap(props) {
 								className={styles.oneFace}
 								data-filled={i + 1 <= filledFaces}
 							>
-								<Image src={logo} alt="" data-aos="zoom-in" />
+								<Image
+									src={roadmapIcon}
+									alt=""
+									data-aos="zoom-in"
+								/>
 							</div>
 						))}
 					</div>

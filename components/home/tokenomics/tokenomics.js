@@ -54,7 +54,9 @@ export default function Tokenomics(props) {
 								data-color="orange"
 							>
 								<div className={styles.square}></div>
-								<Typography>67% PRESALE ON PINKSALE</Typography>
+								<Typography>
+									<span>67%</span> PRESALE ON PINKSALE
+								</Typography>
 							</div>
 						</div>
 						<div
@@ -67,7 +69,9 @@ export default function Tokenomics(props) {
 								data-color="blue"
 							>
 								<div className={styles.square}></div>
-								<Typography>33% LIQUIDITY POOL</Typography>
+								<Typography>
+									<span>33%</span> LIQUIDITY POOL
+								</Typography>
 							</div>
 						</div>
 					</div>

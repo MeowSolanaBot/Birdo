@@ -37,7 +37,7 @@ export default function Hero(props) {
 						data-aos="fade-right"
 					>
 						<Button
-							className={`${design.button_brown} ${styles.longBtn}`}
+							className={`${design.button_green} ${styles.longBtn}`}
 							href="https://pinksale.finance/"
 							target="_blank"
 							disableRipple
@@ -81,7 +81,14 @@ export default function Hero(props) {
 					</div>
 				</div>
 				<div className={styles.media} data-aos="fade-left">
-					<Lottie animationData={heroImgAnim} autoplay />
+					{/* <Lottie animationData={heroImgAnim} autoplay /> */}
+					<Image
+						src={heroImg}
+						alt=""
+						quality={99}
+						priority={true}
+						className="image"
+					/>
 				</div>
 			</div>
 		</div>

@@ -33,14 +33,28 @@
 .inside .content .title {
 	position: relative;
 
-	color: $color-brown;
+	color: $color-green;
 	font-family: $font1;
-	font-size: 64px;
+	font-size: 72px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 120%;
 
 	word-spacing: 4px;
+
+	text-shadow: rgb(24, 80, 50) 2px 0px 0px,
+		rgb(24, 80, 50) 1.75517px 0.958851px 0px,
+		rgb(24, 80, 50) 1.0806px 1.68294px 0px,
+		rgb(24, 80, 50) 0.141474px 1.99499px 0px,
+		rgb(24, 80, 50) -0.832294px 1.81859px 0px,
+		rgb(24, 80, 50) -1.60229px 1.19694px 0px,
+		rgb(24, 80, 50) -1.97998px 0.28224px 0px,
+		rgb(24, 80, 50) -1.87291px -0.701566px 0px,
+		rgb(24, 80, 50) -1.30729px -1.5136px 0px,
+		rgb(24, 80, 50) -0.421592px -1.95506px 0px,
+		rgb(24, 80, 50) 0.567324px -1.91785px 0px,
+		rgb(24, 80, 50) 1.41734px -1.41108px 0px,
+		rgb(24, 80, 50) 1.92034px -0.558831px 0px, 6px 6px 0px $color-darkgreen3;
 
 	span {
 		color: $color-white;
@@ -53,7 +67,7 @@
 
 	width: 100%;
 
-	color: $color-darkbrown;
+	color: $color-darkgreen;
 	font-family: $font2;
 	font-size: 24px;
 	font-style: normal;
@@ -96,12 +110,12 @@
 	position: relative;
 
 	width: 90%;
-	max-width: 415px;
+	max-width: 575px;
 	height: auto;
 
 	img {
 		transform: rotate(-171deg);
-		opacity: 0;
+		//opacity: 0;
 	}
 }
 

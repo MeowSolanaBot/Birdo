@@ -3,25 +3,22 @@ $color-black: #000;
 $color-white: #fff;
 $color-white-filter: brightness(0) invert(1);
 
-$color-brown: #584b2e;
-$color-brown-filter: brightness(0) saturate(100%) invert(28%) sepia(28%)
-	saturate(624%) hue-rotate(3deg) brightness(91%) contrast(89%);
+$color-green: #6fed7a;
+$color-green-filter: brightness(0) saturate(100%) invert(92%) sepia(80%)
+	saturate(610%) hue-rotate(52deg) brightness(99%) contrast(87%);
 
-$color-brown2: #edc675;
+$color-darkgreen: #144822;
+$color-darkgreen-filter: brightness(0) saturate(100%) invert(23%) sepia(16%)
+	saturate(1750%) hue-rotate(84deg) brightness(93%) contrast(96%);
 
-$color-darkbrown: #362e1e;
-$color-darkbrown-filter: brightness(0) saturate(100%) invert(13%) sepia(27%)
-	saturate(799%) hue-rotate(2deg) brightness(99%) contrast(86%);
+$color-darkgreen2: #0c763d;
+$color-darkgreen3: #184d3980;
 
-$color-darkbrown2: #5f533a;
-$color-darkbrown3: #3d3627;
+$color-scroll: $color-green;
+$color-background: #92b4a7;
+$color-text: $color-darkgreen;
 
-$color-scroll: $color-brown;
-$color-background: #dac78c;
-$color-text: $color-darkbrown;
-
-$font1: 'Magic Club';
-$font2: 'Presso Matcha';
-$font3: 'Supersonic Rocketship';
+$font1: 'Catfiles';
+$font2: 'Braah One';
 $animation1: 0.3s;
 $animation2: 1s;

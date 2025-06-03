@@ -42,7 +42,7 @@ export default function Nav(props) {
 				</div>
 				<div className={styles.right} data-aos="fade-left">
 					<Button
-						className={`${design.button_brown} ${styles.btn}`}
+						className={`${design.button_green} ${styles.btn}`}
 						href="https://pinksale.finance/"
 						target="_blank"
 						disableRipple

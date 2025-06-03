@@ -30,7 +30,7 @@ export default function About(props) {
 					</Typography>
 					<div className={styles.contentButtons} data-aos="fade-left">
 						<Button
-							className={`${design.button_brown} ${styles.longBtn}`}
+							className={`${design.button_green} ${styles.longBtn}`}
 							href="https://pinksale.finance"
 							target="_blank"
 							disableRipple
