@@ -25,7 +25,7 @@ export default function Footer(props) {
 						/>
 
 						<Typography>
-							$FROGE Discord's cult emoji turns memecoin on BNB.
+							$FROGE Discord&apos;s cult emoji turns memecoin on BNB.
 						</Typography>
 					</div>
 					<div className={styles.topRight}>

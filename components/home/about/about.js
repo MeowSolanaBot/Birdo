@@ -21,7 +21,7 @@ export default function About(props) {
 						<span>FROGE</span>
 					</Typography>
 					<Typography className={styles.desc} data-aos="fade-left">
-						$FROGE is not just a meme; he's a swamp-born signal of chaos, freedom, and digital rebellion. Froge hops with purpose, fueled by irony, driven by community. Same path as Pepe. Just wilder, greener, and way less serious.
+						$FROGE is not just a meme; he&apos;s a swamp-born signal of chaos, freedom, and digital rebellion. Froge hops with purpose, fueled by irony, driven by community. Same path as Pepe. Just wilder, greener, and way less serious.
 					</Typography>
 					<div className={styles.contentButtons} data-aos="fade-left">
 						<Button

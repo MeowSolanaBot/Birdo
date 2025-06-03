@@ -28,7 +28,7 @@ export default function Hero(props) {
 						FROGE <span>THE FROG</span>
 					</Typography>
 					<Typography className={styles.desc} data-aos="fade-right">
-						Discord's cult emoji turns memecoin on BNB. Same path as Pepe, but greener. Much greener.<br></br>
+						Discord&apos;s cult emoji turns memecoin on BNB. Same path as Pepe, but greener. Much greener.<br></br>
 						CA: 0x0000000000000000000000000000000000000000
 					</Typography>
 					<div
