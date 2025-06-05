@@ -50,7 +50,7 @@ export default function Footer(props) {
 					<div className={styles.centerLeft}>
 						<Button
 							className={`${design.button_green} ${styles.btn}`}
-							href="https://pinksale.finance/"
+							href="https://www.pinksale.finance/launchpad/bsc/0xe2017Cf63bd7593Fb805a4E2A3C4ecA05E4D609b"
 							target="_blank"
 							disableRipple
 						>

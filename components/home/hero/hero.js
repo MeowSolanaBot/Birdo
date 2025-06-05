@@ -37,7 +37,7 @@ export default function Hero(props) {
 					>
 						<Button
 							className={`${design.button_green} ${styles.longBtn}`}
-							href="https://pinksale.finance/"
+							href="https://www.pinksale.finance/launchpad/bsc/0xe2017Cf63bd7593Fb805a4E2A3C4ecA05E4D609b"
 							target="_blank"
 							disableRipple
 						>
